@@ -1,6 +1,6 @@
 @media (max-width: 1130px) {
   .container {
-    background-color: rgba(122, 122, 188, 0.617);
+    background-color: #31b02370;
     max-width: 699px;
     padding-inline: 5px;
   }
@@ -27,5 +27,46 @@
     margin-inline: auto;
     margin-block-end: 52px;
     max-width: 573px;
+  }
+  .enjoy {
+    padding-block-start: 300px;
+    position: relative;
+  }
+  .enjoy::before {
+    content: url(/images/patterns/pattern-curve-top-right.svg);
+    position: absolute;
+    top: 50%;
+    left: -75%;
+    transform: translateY(-75%);
+  }
+  .enjoy .section_info {
+    margin-inline: auto;
+  }
+  .section_info img {
+    margin-block-end: 39px;
+  }
+  .enjoy .main_decor_img {
+    top: 0;
+    left: 50%;
+    transform: translateY(-25%) translateX(-50%);
+    box-shadow: 0px 75px 100px -50px rgba(56, 66, 85, 0.503223);
+  }
+
+  .main_decor_img {
+    background-image: url(/images/homepage/enjoyable-place-tablet.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    position: absolute;
+    width: 573px;
+    height: 360px;
+  }
+
+  .main_decor_img img {
+    display: none;
+  }
+
+  .bg_flow_top {
+    background-image: none;
   }
 }
