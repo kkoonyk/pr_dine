@@ -1,0 +1,31 @@
+@media (max-width: 1130px) {
+  .container {
+    background-color: rgba(122, 122, 188, 0.617);
+    max-width: 699px;
+    padding-inline: 5px;
+  }
+  body {
+    text-align: center;
+  }
+  header section {
+    padding-block-start: 65px;
+  }
+  header img {
+    margin-block-end: 38px;
+  }
+  header h1 {
+    margin-inline: auto;
+    margin-block-end: 20px;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -0.6px;
+    color: #fff;
+    max-width: 395px;
+  }
+
+  header p {
+    margin-inline: auto;
+    margin-block-end: 52px;
+    max-width: 573px;
+  }
+}
