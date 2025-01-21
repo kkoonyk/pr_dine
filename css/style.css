@@ -333,11 +333,13 @@ a.bg_black:hover {
   background-image: url(../images/homepage/ready-bg-desktop.jpg);
   background-repeat: no-repeat;
   background-position: center center;
+  background-size: cover;
   padding-block: 88px;
 }
 .ready div.flx {
-  column-gap: 250px;
+  /* column-gap: 250px; */
   align-items: center;
+  justify-content: space-between;
 }
 .ready h2 {
   color: #fff;
@@ -539,9 +541,9 @@ button[type="submit"] {
     background-color: #d1dd21;
   }
 } */
-@media (max-width: 990px) {
-  /*селектори з набором ccs правил*/
+/* @media (max-width: 990px) {
+  селектори з набором ccs правил
   body {
     background-color: #d1dd21;
   }
-}
+} */
