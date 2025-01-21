@@ -1,2 +1,184 @@
 @media (max-width: 689px) {
+  .container {
+    max-width: 336px;
+  }
+
+  header {
+    background-image: url(../images/homepage/hero-bg-mobile.jpg);
+  }
+
+  header section {
+    padding-block-start: 232px;
+    padding-block-end: 152px;
+    min-height: 750px;
+  }
+  header img {
+    width: 82px;
+    height: 32px;
+    margin-block-end: 36px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #242b37;
+  }
+  h1 {
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.4px;
+    margin-block-end: 21px;
+  }
+  header p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-block-end: 53px;
+  }
+
+  .enjoy::before,
+  .local::before,
+  .family::before {
+    display: none;
+  }
+  .enjoy {
+    padding-block-start: 376px;
+    padding-block-end: 100px;
+  }
+
+  .section_info h2 {
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.4px;
+    margin-block-end: 13px;
+  }
+  .section_info p {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.4px;
+    margin-block-end: 13px;
+  }
+  .section_info img {
+    margin-block-end: 36px;
+  }
+  .main_decor_img {
+    width: 327px;
+    height: 400px;
+  }
+  .enjoy .main_decor_img {
+    top: 0;
+    left: 50%;
+    transform: translateY(-25%) translateX(-50%);
+    box-shadow: 0px 75px 100px -50px rgba(56, 66, 85, 0.503223);
+    position: absolute;
+    background-image: url(../images/homepage/enjoyable-place-mobile.jpg);
+  }
+  .local {
+    padding-block-end: 100px;
+  }
+
+  .local .main_decor_img {
+    background-image: url(../images/homepage/locally-sourced-mobile.jpg);
+  }
+  .local .main_decor_img img:nth-child(2) {
+    display: none;
+  }
+
+  .menu {
+    padding-block: 72px 102px;
+  }
+
+  .menu_items {
+    padding-block-start: 85px;
+  }
+  .menu_items article.flx {
+    flex-direction: column;
+    justify-content: end;
+    width: 327px;
+    height: 418px;
+    row-gap: 24px;
+    padding-block-end: 54px;
+
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+  .menu_items article.flx:last-child {
+    padding-block-end: 0;
+  }
+  .menu_items article.flx img {
+    display: none;
+  }
+  .menu_items article:nth-child(1) {
+    background-image: url(../images/homepage/salmon-mobile.jpg);
+  }
+  .menu_items article:nth-child(2) {
+    background-image: url(../images/homepage/beef-mobile.jpg);
+  }
+  .menu_items article:nth-child(3) {
+    background-image: url(../images/homepage/chocolate-mobile.jpg);
+  }
+  .menu_items article.flx div {
+    text-align: center;
+    flex-grow: 0;
+  }
+
+  .menu h3::before {
+    display: none;
+  }
+
+  .family {
+    padding-block: 80px 124px;
+  }
+  .family section_info {
+    padding-block-start: 27px;
+    margin-block-end: 0;
+  }
+  .family p {
+    margin-block-end: 27px;
+  }
+  .family .main_decor_img {
+    background-image: url(../images/homepage/family-gathering-mobile.jpg);
+    margin-block-end: 49px;
+  }
+  .family ul {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 689px;
+    width: 100%;
+    row-gap: 16px;
+    /* margin-block-end: 27px; */
+  }
+
+  .family .main_decor_img img:nth-child(2) {
+    display: none;
+  }
+  .family ul button.active::before {
+    bottom: 0;
+  }
+  .ready {
+    background-image: url(../images/homepage/ready-bg-mobile.jpg);
+    min-height: 328px;
+    align-content: center;
+  }
+  .ready h2 {
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.4px;
+    color: #fff;
+  }
+  footer {
+    padding-block: 80px;
+  }
+  footer > div.flx {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 42px;
+  }
+
+  footer div.flx div.flx {
+    align-items: center;
+  }
+  address,
+  .times {
+    text-align: center;
+  }
 }

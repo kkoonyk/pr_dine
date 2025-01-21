@@ -135,6 +135,7 @@ header p {
   background-image: url(../images/patterns/pattern-curve-top-left.svg);
   background-position: right bottom;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 .enjoy {
   padding-block: 177px 118px;
