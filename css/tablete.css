@@ -131,4 +131,8 @@
     flex-grow: 1;
     max-width: inherit;
   }
+
+  .menu-items article:last-child {
+    padding-block-end: 0;
+  }
 }
